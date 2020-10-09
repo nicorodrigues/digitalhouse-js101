@@ -1,19 +1,23 @@
-var num = 10
+var num = 10;
 
 function a() {
-  console.log('Número: ', num2)
-  b()
+    console.log('Número: ', num2);
+    b();
 }
 
 function b() {
-  console.log('Número: ', num)
-  c()
+    console.log('Número: ', num);
+    c();
 }
 
 function c() {
-  console.log('Hello world!')
+    console.log('Casi ultimo');
+    d();
+}
+function d() {
+    console.log('Hello world');
 }
 
-a()
+a();
 
-var num2 = 5
+var num2 = 5;
